@@ -1,9 +1,11 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { shallow } from 'enzyme';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('Test App text', () => {
+  it('should be teste inside App div', () => {
+    const container = shallow(<App />)
+
+    expect(container.text()).toBe('teste')
+  })
+})
