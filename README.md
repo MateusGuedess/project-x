@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Project X
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project are supported by Gabriel and Mateus
+
+## About the project
+
+...
 
 ## Available Scripts
 
